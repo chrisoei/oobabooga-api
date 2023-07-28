@@ -44,7 +44,7 @@ def run(cur1, prompt):
 if __name__ == '__main__':
     with open(os.getenv("OOBABOOGA_PROMPT_FILE"), "r") as fh2:
         prompt = fh2.read().strip()
-    with psycopg2.connect("postgresql://") as db1:
+    with psycopg2.connect() as db1:
         with db1.cursor() as cur1:
             run(cur1, prompt)
 
