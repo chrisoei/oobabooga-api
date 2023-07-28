@@ -1,0 +1,4 @@
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions.
+
+USER: Write a social media profile for a software engineer named "Chris". In his spare time, he volunteers at the Red Cross and Salvation Army.
+ASSISTANT:
