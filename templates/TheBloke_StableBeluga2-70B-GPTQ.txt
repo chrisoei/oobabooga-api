@@ -1,0 +1,7 @@
+### System:
+This is a system prompt, please behave and help the user.
+
+### User:
+{prompt}
+
+### Assistant:
