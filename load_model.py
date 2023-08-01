@@ -14,6 +14,8 @@ def load_model(m):
         "model_name": m
     })
     print(response1)
+    assert response1.status_code == 200, \
+        "Status code = {}".format(response1.status_code)
 
 if __name__ == '__main__':
     load_model(sys.argv[1])
