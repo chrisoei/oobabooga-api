@@ -1,0 +1,10 @@
+
+for e1 in \
+    OOBABOOGA_MODEL \
+    OOBABOOGA_TEMPLATE_FILE \
+    OOBABOOGA_BASE_URI \
+    OOBABOOGA_REQUEST_FILE \
+    OOBABOOGA_PROMPT_FILE
+do
+  echo "$e1=${!e1}"
+done
