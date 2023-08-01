@@ -1,0 +1,2 @@
+export OOBABOOGA_MODEL=TheBloke_llama2_7b_chat_uncensored-GPTQ
+. load_model.sh
