@@ -16,6 +16,7 @@ def run(cur1, prompt):
     assert response1.status_code == 200, "Status code = {}".format(response1.status_code)
     r1j = response1.json()
     print(f'MODEL_NAME={r1j["result"]["model_name"]}')
+    print(f'LORA_NAMES={r1j["result"]["lora_names"]}')
     with open(os.getenv("OOBABOOGA_REQUEST_FILE"), "r") as fh1:
         j2a = fh1.read()
     request2 = json.loads(j2a)
