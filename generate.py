@@ -43,7 +43,7 @@ def run(cur1, prompt):
 
 if __name__ == '__main__':
     with open(os.getenv("OOBABOOGA_TEMPLATE_FILE"), "r") as fh3:
-        template1 = fh3.read().strip()
+        template1 = fh3.read()
     with open(os.getenv("OOBABOOGA_PROMPT_FILE"), "r") as fh2:
         prompt = template1.format(prompt = fh2.read().strip())
     with psycopg2.connect() as db1:
